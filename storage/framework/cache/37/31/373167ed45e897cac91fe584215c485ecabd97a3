@@ -1,0 +1,58 @@
+1603026081a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:817:"==
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ this.page.meta_description }}">
+    <title>Acme - {{ this.page.title }}</title>
+    <link rel="stylesheet" href="{{ 'assets/css/bootstrap.min.css'|theme }}">
+    {% styles %}
+
+  </head>
+  <body>
+    <header>
+      {% partial 'site/header' %}
+    </header>
+
+    <div class="container my-5">
+      {% page %}
+    </div>
+
+    <footer>
+      {% partial 'site/footer' %}
+    </footer>
+
+    <script src="{{ 'assets/vender/jquery.js'|theme }}"></script>
+    <script src="{{ 'assets/vender/bootstrap.js'|theme }}"></script>
+    <script src="{{ 'assets/javascript/app.js'|theme }}"></script>
+  </body>
+</html>";s:5:"mtime";i:1603021098;s:6:"markup";s:813:"<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ this.page.meta_description }}">
+    <title>Acme - {{ this.page.title }}</title>
+    <link rel="stylesheet" href="{{ 'assets/css/bootstrap.min.css'|theme }}">
+    {% styles %}
+
+  </head>
+  <body>
+    <header>
+      {% partial 'site/header' %}
+    </header>
+
+    <div class="container my-5">
+      {% page %}
+    </div>
+
+    <footer>
+      {% partial 'site/footer' %}
+    </footer>
+
+    <script src="{{ 'assets/vender/jquery.js'|theme }}"></script>
+    <script src="{{ 'assets/vender/bootstrap.js'|theme }}"></script>
+    <script src="{{ 'assets/javascript/app.js'|theme }}"></script>
+  </body>
+</html>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
